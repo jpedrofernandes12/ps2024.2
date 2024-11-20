@@ -1,0 +1,328 @@
+.container-4{
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Preenche a altura da viewport */
+    width: 100%; /* Preenche a largura */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#451b72, #000000);
+    background-size: cover; /* Faz o background preencher a área */
+    background-attachment: fixed; /* Mantém o background fixo */
+   
+}
+.title-4{
+
+    font-size: 25px;
+    width: auto;
+    color: #ff9602d7;
+    animation: fliptitle 1.2s;
+    text-align: center;
+    font-family:fantasy;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    
+}
+
+@keyframes fliptitle{
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+      transform: rotateX(0deg);
+    }
+}
+ .caixa1-4{
+ 
+    color: #ff9602d7;
+    animation: fliptitle 1.2s;
+    text-align: center;
+    font-family:fantasy;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+    margin: 10px;
+    background-color: #00000083;
+    width: auto;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+ }
+
+ .tituloc{
+    font-size: 30px;
+    color: #ff9602d7;
+    animation: fliptitle 1.2s;
+    text-align: center;
+    font-family:fantasy;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+ }
+
+ .tituloc2{
+    font-size: 30px;
+    color: #ff9602d7;
+    animation: fliptitle 1.2s;
+    text-align: center;
+    font-family:fantasy;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+ }
+
+ .tituloc3{
+    font-size: 30px;
+    color: #ff9602d7;
+    animation: fliptitle 1.2s;
+    text-align: center;
+    font-family:fantasy;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+ }
+
+ .tituloc4{
+    font-size: 30px;
+    color: #ff9602d7;
+    animation: fliptitle 1.2s;
+    text-align: center;
+    font-family:fantasy;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+ }
+
+ 
+
+ .conteudoc{
+ 
+        padding: 5px;
+        margin: 5px;
+        color: #ff9602d7;
+        border-radius: 10px;
+        border-color: #00000081;
+        max-width: 300px; /* Define a largura máxima */
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+        font-family: fantasy;
+        word-wrap: break-word; /* Quebra palavras muito longas */
+        overflow-wrap: break-word; /* Alternativa para quebra de palavras */
+        text-align: center;
+      
+    
+   
+ }
+
+ .conteudoc2{
+ 
+    padding: 5px;
+    margin: 5px;
+    color: #ff9602d7;
+    border-radius: 10px;
+    border-color: #00000081;
+    max-width: 300px; /* Define a largura máxima */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-family: fantasy;
+    word-wrap: break-word; /* Quebra palavras muito longas */
+    overflow-wrap: break-word; /* Alternativa para quebra de palavras */
+    text-align: center;
+   
+}
+
+.conteudoc3{
+ 
+    padding: 5px;
+    margin: 5px;
+    color: #ff9602d7;
+    border-radius: 10px;
+    border-color: #00000081;
+    max-width: 300px; /* Define a largura máxima */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-family: fantasy;
+    word-wrap: break-word; /* Quebra palavras muito longas */
+    overflow-wrap: break-word; /* Alternativa para quebra de palavras */
+    text-align: center;
+    
+}
+
+.conteudoc4{
+ 
+    padding: 5px;
+    margin: 5px;
+    color: #ff9602d7;
+    border-radius: 10px;
+    border-color: #00000081;
+    max-width: 300px; /* Define a largura máxima */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-family: fantasy;
+    word-wrap: break-word; /* Quebra palavras muito longas */
+    overflow-wrap: break-word; /* Alternativa para quebra de palavras */
+    text-align: center;
+   
+}
+
+ .titulot{
+    padding: 2px;
+    margin: 2px;
+    background-color:  #ff9602d7;
+    color: #000000d7;
+    border-radius: 10px;
+    border-color: #00000081;
+    width: 100%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-family:fantasy;
+    cursor: pointer;
+ }
+
+ .conteudot{
+    padding: 2px;
+    margin: 2px;
+    background-color:  #ff9602d7;
+    color: #000000d7;
+    border-radius: 10px;
+    border-color: #00000081;
+    width: 100%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-family:fantasy;
+    cursor: pointer;
+ }
+
+ .caixa-controls{
+    font-size: 40px;
+    color: #ff9602d7;
+    animation: fliptitle 1.2s;
+    text-align: center;
+    font-family:fantasy;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+    margin: 10px;
+   
+    border-radius: 10px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+ }
+
+ .botão1-4 {
+    padding: 5px;
+    margin: 15px auto; /* Centraliza o botão horizontalmente */
+    background-color: #ff9602d7;
+    color: #000000d7;
+    border-radius: 10px;
+    border: none;
+    width: 150px; /* Define uma largura fixa */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-family: fantasy;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block; /* Garante que ele não expanda como block */
+}
+
+.botão1-4:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition-duration: 50ms;
+}
+
+
+  .rodape-4{
+   
+    color: #515151bb;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 7px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-family:fantasy;
+    cursor: pointer;
+    
+
+
+  }
+
+  /*estilo da barra de rolagem */
+::-webkit-scrollbar {
+    width: 12px;   
+    height: 50px;            
+    background: linear-gradient(#451b72, #000000);
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#451b72, #000000);  
+    border-radius: 6px;         
+    border: 2px solid #000000;  
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient( #ff9602d7, #000000);   
+  }
+  
+  
+  ::-webkit-scrollbar-button {
+    display: none;             
+  }
+
+  .teia {
+  
+   margin: 0px;
+   padding: 0px;
+   
+}
+
+.botao-excluir{
+   padding: 4px;
+   margin-left: 10px; /* Centraliza o botão horizontalmente */
+   background-color: #ff0202d7;
+   color: #000000d7;
+   border-radius: 7px;
+   border: none;
+   font-size: 10px;
+   height: 20px;
+   width: 20px; /* Define uma largura fixa */
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+   font-family: fantasy;
+   cursor: pointer;
+   text-align: center;
+   display: inline-block; /* Garante que ele não expanda como block */
+}
+
+.botao-excluir:hover{
+   background-color:#b60000d7 ;
+   transition-duration: 50ms;
+}
+
+
+
+
