@@ -23,7 +23,7 @@ function Tela1() {
        <div className="fantasma">
 
        <img 
-  src="src/fotos/fantasma1.webp" 
+  src="/fotos/fantasma1.webp" 
   alt="fantasma" 
   style={{ width: '100px', height: 'auto' }}/>
 
@@ -32,7 +32,7 @@ function Tela1() {
        <div className="fantasma2">
 
        <img 
-  src="src/fotos/fantasma2.webp" 
+  src="/fotos/fantasma2.webp" 
   alt="fantasma" 
   style={{ width: '100px', height: 'auto' }}/>
 
@@ -55,7 +55,7 @@ function Tela1() {
          <button className="botão2"  onClick={() => navigate('/tela3.jsx')}>
           Conheça a Include
          <img 
-            src="src/fotos/simbinclude.png" 
+            src="/fotos/simbinclude.png" 
             alt="include" 
             style={{ width: '15px', height: 'auto' }}/>
          </button>
@@ -72,38 +72,38 @@ function Tela1() {
 
 <div className="abobora">
   <img 
-  src="src/fotos/aboborapng2.png" 
+  src="/fotos/aboborapng2.png" 
   alt="abobora" 
   className="responsive-img"/>
 
 
   <img 
-  src="src/fotos/aboborapng2.png" 
+  src="/fotos/aboborapng2.png" 
   alt="abobora" 
   className="responsive-img2"/>
 
  <img 
-  src="src/fotos/aboborapng2.png" 
+  src="/fotos/aboborapng2.png" 
   alt="abobora" 
   className="responsive-img"/>
 
  <img 
-  src="src/fotos/lapide1.png" 
+  src="/fotos/lapide1.png" 
   alt="lapide" 
   className="responsive-img3"/>
 
   <img 
-  src="src/fotos/aboborapng2.png" 
+  src="/fotos/aboborapng2.png" 
   alt="abobora" 
   className="responsive-img"/>
 
   <img 
-  src="src/fotos/aboborapng2.png" 
+  src="/fotos/aboborapng2.png" 
   alt="abobora" 
   className="responsive-img2"/>
 
   <img 
-  src="src/fotos/aboborapng2.png" 
+  src="/fotos/aboborapng2.png" 
   alt="abobora" 
   className="responsive-img"/>
   
@@ -117,17 +117,17 @@ function Tela1() {
       <div className="morcegos1">
        
       <img 
-  src="src/fotos/morcegopng1.png" 
+  src="/fotos/morcegopng1.png" 
   alt="morcego" 
   style={{ width: '50px', height: 'auto' }}/>
 
 <img 
-  src="src/fotos/morcegopng1.png" 
+  src="/fotos/morcegopng1.png" 
   alt="morcego" 
   style={{ width: '25px', height: 'auto' }}/>
 
 <img 
-  src="src/fotos/morcegopng1.png" 
+  src="/fotos/morcegopng1.png" 
   alt="morcego" 
   style={{ width: '40px', height: 'auto' }}/>
 
@@ -161,7 +161,7 @@ rel="noopener noreferrer">
      
       <audio controls className="controleaudio">
 
-        <source src="/src/audios/musica.m4a"  type="audio/aac" />
+        <source src="/audios/musica.m4a"  type="audio/aac" />
 
       </audio>
 

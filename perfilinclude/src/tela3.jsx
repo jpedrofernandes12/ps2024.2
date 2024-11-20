@@ -17,7 +17,7 @@ function Tela3() {
         
         <div className='title-3'>
           <img 
-            src="src/fotos/simbinclude.png" 
+            src="/fotos/simbinclude.png" 
             alt="include" 
             style={{ width: '55px', height: 'auto' }}
           />
@@ -29,13 +29,13 @@ function Tela3() {
           {/* Botão 1 */}
           <button className="botão1-3" onClick={() => setIsModalOpen1(true)}>
             <img 
-              src="src/fotos/morcegopng1.png" 
+              src="/fotos/morcegopng1.png" 
               alt="morcego" 
               style={{ width: '15px', height: 'auto' }}
             />
             O que é a Include?
             <img 
-              src="src/fotos/morcegopng1.png" 
+              src="/fotos/morcegopng1.png" 
               alt="morcego" 
               style={{ width: '15px', height: 'auto' }}
             />
@@ -44,13 +44,13 @@ function Tela3() {
           {/* Botão 2 */}
           <button className="botão2-3" onClick={() => setIsModalOpen2(true)}>
             <img 
-              src="src/fotos/morcegopng1.png" 
+              src="/fotos/morcegopng1.png" 
               alt="morcego" 
               style={{ width: '15px', height: 'auto' }}
             />
             O que fazemos?
             <img 
-              src="src/fotos/morcegopng1.png" 
+              src="/fotos/morcegopng1.png" 
               alt="morcego" 
               style={{ width: '15px', height: 'auto' }}
             />
@@ -59,13 +59,13 @@ function Tela3() {
           {/* Botão 3 */}
           <button className="botão3-3" onClick={() => setIsModalOpen3(true)}>
             <img 
-              src="src/fotos/morcegopng1.png" 
+              src="/fotos/morcegopng1.png" 
               alt="morcego" 
               style={{ width: '15px', height: 'auto' }}
             />
             O que é uma Empresa Júnior?
             <img 
-              src="src/fotos/morcegopng1.png" 
+              src="/fotos/morcegopng1.png" 
               alt="morcego" 
               style={{ width: '15px', height: 'auto' }}
             />
@@ -110,12 +110,12 @@ function Tela3() {
         <div className="rodape-3">
           <h1 className="criador-3">
 
-            <img src="src/fotos/caveira1.png" alt="morcego" 
+            <img src="/fotos/caveira1.png" alt="morcego" 
             style={{ width: '20px', height: 'auto' }} />
 
             Feito por João Pedro Câmara Fernandes
 
-            <img src="src/fotos/caveira1.png" alt="morcego" 
+            <img src="/fotos/caveira1.png" alt="morcego" 
             style={{ width: '20px', height: 'auto' }} />
 
           </h1>
@@ -141,7 +141,7 @@ function Tela3() {
      
            <audio controls className="controleaudio">
 
-            <source src="/src/audios/musica2.m4a"  type="audio/aac" />
+            <source src="/audios/musica2.m4a"  type="audio/aac" />
 
            </audio>
 

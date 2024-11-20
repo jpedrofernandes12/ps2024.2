@@ -14,27 +14,27 @@ function Tela2() {
   return (
     <>
       <div className="container-2">
-      <img src="src/fotos/fotoperfil.png" alt="perfil" style={{ width: '80px', height: 'auto' }}/>
+      <img src="/fotos/fotoperfil.png" alt="perfil" style={{ width: '80px', height: 'auto' }}/>
         <div className='title-2'>
-          <img src="src/fotos/morcegopng1.png" alt="morcego" style={{ width: '50px', height: 'auto' }}/>
+          <img src="/fotos/morcegopng1.png" alt="morcego" style={{ width: '50px', height: 'auto' }}/>
           <h1>Meu Perfil</h1>
-          <img src="src/fotos/morcegopng1.png" alt="morcego" style={{ width: '50px', height: 'auto' }}/>
+          <img src="/fotos/morcegopng1.png" alt="morcego" style={{ width: '50px', height: 'auto' }}/>
         </div>
 
         <div className="caixa1-2">
           <button className="botão1-2" onClick={() => setIsModalOpen1(true)}>
             Perfil acadêmico e técnico
-            <img src="src/fotos/aboborapng2.png" alt="abobora" style={{ width: '15px', height: 'auto' }}/>
+            <img src="/fotos/aboborapng2.png" alt="abobora" style={{ width: '15px', height: 'auto' }}/>
           </button>
           
           <button className="botão2-2" onClick={() => setIsModalOpen2(true)}>
             Curiosidades
-            <img src="src/fotos/lapide1.png" alt="lapide" style={{ width: '15px', height: 'auto' }}/>
+            <img src="/fotos/lapide1.png" alt="lapide" style={{ width: '15px', height: 'auto' }}/>
           </button>
           
           <button className="botão3-2" onClick={() => setIsModalOpen3(true)}>
             Porquê devo entrar na Include
-            <img src="src/fotos/simbinclude.png" alt="include" style={{ width: '15px', height: 'auto' }}/>
+            <img src="/fotos/simbinclude.png" alt="include" style={{ width: '15px', height: 'auto' }}/>
           </button>
         </div>
 
@@ -44,7 +44,7 @@ function Tela2() {
              período do curso de Engenharia de Computação na Universidade Federal do Rio Grande do Norte. Tenho alguma
               experiência breve em desenvolvimento web e lógica de programação, porém, tenho aptidão e disponibilidade para
                aprender e trabalhar na área.</h2>
-               <img src="src/fotos/aboborapng2.png" 
+               <img src="/fotos/aboborapng2.png" 
                alt="abobora" 
                style={{ width: '55px', height: 'auto' }}
                className='fotomodal'/>
@@ -55,7 +55,7 @@ function Tela2() {
           <h2>Ex-atleta de judô, pratiquei também jiu-jitsu e futsal. Tenho grande interesse na área automobilística e passo 
             meu tempo livre assistindo filmes e documentários, principalmente os de cunho histórico.</h2>
             <img 
-             src="src/fotos/lapide1.png" 
+             src="/fotos/lapide1.png" 
              alt="lapide" 
              style={{ width: '55px', height: 'auto' }}
              className='fotomodal'/>
@@ -68,7 +68,7 @@ function Tela2() {
              Embora eu precise de prática na área de trabalho, estou empenhado em contribuir para a Include deixando uma melhoria para
               os futuros membros, garantindo assim a continuidade e a conexão dos alunos da UFRN, dos cursos que a empresa engloba, com 
               o mercado de trabalho e com o movimento empresa júnior.</h2>
-              <img src="src/fotos/simbinclude.png" 
+              <img src="/fotos/simbinclude.png" 
               alt="include"
                style={{ width: '55px', height: 'auto' }}
                className='fotomodal'/>
